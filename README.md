@@ -1,7 +1,7 @@
 
 # 🏥 Insurance Charges Prediction
 
-This project predicts **medical insurance charges** for individuals based on demographic and health-related attributes (age, sex, BMI, children, smoking status, and region).
+This project predicts **medical insurance charges** for individuals based on demographic and health-related attributes (age, sex, BMI, children, smoking status, and region).The predictor uses a lineaar regression model .
 
 The dataset used: [`insurance.csv`](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 
@@ -40,7 +40,7 @@ The dataset used: [`insurance.csv`](https://www.kaggle.com/datasets/mirichoi0218
   * Significant features retained: `smoker`, BMI categories, `sex`, `region_southeast`.
   * Dropped: `region_northwest`, `region_southwest` (not significant).
 
-### 5. Model Training (Next Step)
+### 5. Model Training 
 
 Prepared final dataset (`final_df`) to train ML models like:
 
@@ -75,9 +75,15 @@ Evaluation metrics to be used:
 
 ---
 
-## 🔮 Future Improvements
+## 🔮 Improvements
 
-* Model training and deployment
+* Trained a liner regression model 
+* Tested the model using preformence metrics-
+                                 * R square 
+                                 * Adjusted R square
+
+* Result - R square = 0.7042031573326104   
+           Adjusted R square = 0.6974032299149693 
 
 ---
 
